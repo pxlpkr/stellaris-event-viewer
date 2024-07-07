@@ -1,0 +1,433 @@
+{
+    "riftworld": {
+        "name": "astral_rift_riftworld",
+        "randomized": false,
+        "flags": {
+            "riftworld_rift": null
+        },
+        "event": "astral_rift.1",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "corridors": {
+        "name": "astral_rift_corridors",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.100",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "ancient_battlegrounds": {
+        "name": "astral_rift_ancient_battlegrounds",
+        "event_weight": {
+            "weight": "1",
+            "inline_script": {
+                "script": "astral_rift/relic_weight_modifier",
+                "RELIC": "r_daedalus_seal"
+            }
+        },
+        "flags": {
+            "can_reward_relic": null,
+            "r_daedalus_seal": null
+        },
+        "event": "astral_rift.200",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "library": {
+        "name": "astral_rift_library",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.300",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "subnautical": {
+        "name": "astral_rift_subnautical",
+        "event_weight": {
+            "weight": "1",
+            "inline_script": {
+                "script": "astral_rift/relic_weight_modifier",
+                "RELIC": "r_celestial_tear"
+            }
+        },
+        "flags": {
+            "can_reward_relic": null,
+            "r_celestial_tear": null
+        },
+        "event": "astral_rift.500",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "tower": {
+        "name": "astral_rift_tower",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.600",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "whiteout": {
+        "name": "astral_rift_whiteout",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.700",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "advisor": {
+        "name": "astral_rift_advisor",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.800",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "vortex": {
+        "name": "astral_rift_vortex",
+        "event_weight": {
+            "weight": "1",
+            "inline_script": {
+                "script": "astral_rift/relic_weight_modifier",
+                "RELIC": "r_ever_spinning_top"
+            }
+        },
+        "flags": {
+            "can_reward_relic": null,
+            "r_ever_spinning_top": null
+        },
+        "event": "astral_rift.900",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "crystal": {
+        "name": "astral_rift_crystal",
+        "randomized": false,
+        "flags": {
+            "crystal_rift": null
+        },
+        "event": "astral_rift.1000",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "lonely_planet": {
+        "name": "astral_rift_lonely_planet",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.1100",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "microverse": {
+        "name": "astral_rift_microverse",
+        "event_weight": {
+            "weight": "0.5",
+            "modifier": {
+                "factor": "0",
+                "has_country_flag": "astral_scar_instability_found"
+            }
+        },
+        "event": "astral_rift.1200",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "fluid": {
+        "name": "astral_rift_fluid",
+        "event_weight": {
+            "weight": "1",
+            "inline_script": {
+                "script": "astral_rift/relic_weight_modifier",
+                "RELIC": "r_plasmic_core"
+            }
+        },
+        "flags": {
+            "can_reward_relic": null,
+            "r_plasmic_core": null
+        },
+        "event": "astral_rift.1300",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "garden": {
+        "name": "astral_rift_garden",
+        "event_weight": {
+            "weight": "1",
+            "inline_script": {
+                "script": "astral_rift/relic_weight_modifier",
+                "RELIC": "r_infinity_root"
+            }
+        },
+        "flags": {
+            "can_reward_relic": null,
+            "r_infinity_root": null
+        },
+        "event": "astral_rift.1400",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "desert_ruins": {
+        "name": "astral_rift_desert_ruins",
+        "event_weight": {
+            "weight": "1",
+            "inline_script": {
+                "script": "astral_rift/relic_weight_modifier",
+                "RELIC": "r_time_crystal"
+            }
+        },
+        "flags": {
+            "can_reward_relic": null,
+            "r_time_crystal": null
+        },
+        "event": "astral_rift.1500",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "station": {
+        "name": "astral_rift_station",
+        "event_weight": {
+            "weight": "1",
+            "modifier": [
+                {
+                    "factor": "0",
+                    "exists": "event_target:mirrored_empire"
+                },
+                {
+                    "factor": "0",
+                    "has_origin": "origin_riftworld"
+                }
+            ]
+        },
+        "flags": {
+            "mirrored_rift": null
+        },
+        "event": "astral_rift.1600",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "tomb": {
+        "name": "astral_rift_tomb",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.1700",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "rockworms": {
+        "name": "astral_rift_rockworms",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.1800",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "volcano": {
+        "name": "astral_rift_volcano",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.1900",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "research_lab": {
+        "name": "astral_rift_research_lab",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.2000",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "clock": {
+        "name": "astral_rift_clock",
+        "event_weight": {
+            "weight": "1",
+            "inline_script": {
+                "script": "astral_rift/relic_weight_modifier",
+                "RELIC": "r_continuum"
+            }
+        },
+        "flags": {
+            "can_reward_relic": null,
+            "r_continuum": null
+        },
+        "event": "astral_rift.2100",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "dimensional_dump": {
+        "name": "astral_rift_dimensional_dump",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.2200",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "genesis": {
+        "name": "astral_rift_genesis",
+        "event_weight": {
+            "weight": "1",
+            "modifier": [
+                {
+                    "factor": "0",
+                    "has_global_flag": "genesis_rift_being_explored"
+                },
+                {
+                    "factor": "0",
+                    "count_owned_planet": {
+                        "limit": {
+                            "habitable_planet": true,
+                            "OR": {
+                                "is_colony": true,
+                                "is_capital": true
+                            }
+                        },
+                        "count": "0"
+                    }
+                }
+            ]
+        },
+        "flags": {
+            "genesis_rift": null
+        },
+        "event": "astral_rift.2300",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "entangled_dark_matter": {
+        "name": "astral_rift_entangled_dark_matter",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.2400",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "bleached_planet": {
+        "name": "astral_rift_bleached_planet",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.2500",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "cleaning_drones": {
+        "name": "astral_rift_cleaning_drones",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.2600",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "windswept_planet": {
+        "name": "astral_rift_windswept_planet",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.2700",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "tiny_planet": {
+        "name": "astral_rift_tiny_planet",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.2800",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "interdimensional_circus": {
+        "name": "astral_rift_interdimensional_circus",
+        "event_weight": {
+            "weight": "1",
+            "modifier": {
+                "factor": "0",
+                "has_country_flag": "greatest_show_anomaly_found"
+            }
+        },
+        "event": "astral_rift.2900",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "siege_on_paradise": {
+        "name": "astral_rift_siege_on_paradise",
+        "event_weight": {
+            "weight": "1",
+            "modifier": [
+                {
+                    "factor": "2",
+                    "has_event_chain": "baol_chain"
+                },
+                {
+                    "factor": "4",
+                    "has_completed_event_chain": "baol_chain"
+                }
+            ]
+        },
+        "event": "astral_rift.3000",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "tropical_habitat": {
+        "name": "astral_rift_tropical_habitat",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.3100",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    },
+    "psionic_stranger": {
+        "name": "astral_rift_psionic_stranger",
+        "event_weight": {
+            "weight": "1"
+        },
+        "event": "astral_rift.3200",
+        "on_roll_failed": {
+            "standard_astral_rift_on_roll_failed": true
+        }
+    }
+}
